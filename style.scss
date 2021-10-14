@@ -19,6 +19,7 @@ html {
 body {
   font-family: "Courier New", Courier, monospace;
   font-size: 2rem;
+  padding: 0 4rem;
 }
 
 .wrapper {
@@ -33,18 +34,13 @@ body {
     text-align: right;
     padding: 2rem 0.5rem;
   }
-
-  .calc-row {
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch;
-  }
-
+  
   .calc-button {
     background: #d8d9db;
     color: black;
     height: 10rem;
     width: 25%;
+    border: 1px solid black;
     border-radius: 0;
     font-size: 4rem;
     cursor: pointer;

@@ -1,0 +1,83 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
+}
+
+.wrapper {
+  width: 40rem;
+  color: white;
+  background: black;
+  margin: auto;
+  margin-top: 2.5rem;
+}
+
+.wrapper .window {
+  font-size: 4rem;
+  text-align: right;
+  padding: 2rem 0.5rem;
+}
+
+.wrapper .calc-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.wrapper .calc-button {
+  background: #d8d9db;
+  color: black;
+  height: 10rem;
+  width: 25%;
+  border-radius: 0;
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+.wrapper .calc-button:hover {
+  background: #ebebeb;
+}
+
+.wrapper .calc-button:active {
+  background: #bbbcbe;
+}
+
+.wrapper .calc-button.double {
+  width: 50%;
+}
+
+.wrapper .calc-button.triple {
+  width: 75%;
+}
+
+.wrapper .calc-button:last-child {
+  background: #df974c;
+  color: white;
+}
+
+.wrapper .calc-button:last-child:hover {
+  background: #dfb07e;
+}
+
+.wrapper .calc-button:last-child:active {
+  background: #dd8d37;
+}
+/*# sourceMappingURL=style.css.map */
